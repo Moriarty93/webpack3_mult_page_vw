@@ -6,7 +6,7 @@ const path = require('path');
 const webpack = require('webpack'); // 用于引用官方插件
 const webpackMerge = require('webpack-merge'); // 用于合并配置文件
 const CleanWebpackPlugin = require('clean-webpack-plugin'); // 用于清除文件夹
-const Purifycss = require("purifycss-webpack"); //清除多余css
+const Purifycss = require("purifycss-webpack"); //清除多余css   当使用第三方框架时，动态生成的元素样式也会被取消
 
 const CopyWebpackPlugin = require('copy-webpack-plugin'); //复制静态文件资源
 

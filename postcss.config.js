@@ -20,8 +20,8 @@ module.exports = {
       autoprefixer: false,          //已经集成了，关闭重复调用
       "postcss-zindex": false        // 会默认设置z-index为1，要关闭
     },
-    'autoprefixer': {
-      browsers: ['last 5 version']
-    }
+    // 'autoprefixer': {
+    //   browsers: ['last 5 version']    //postcss-cssnext 已经集成
+    // }
   }
 };
