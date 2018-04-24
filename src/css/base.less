@@ -2,6 +2,11 @@
 @lv: green;
 
 
+//解决用css Polyfill降级处理vw在移动端适配时img标签在Mobile Safari不起作用的bug  可以用background代替或者全局样式设置img
+img {
+  content: normal !important;
+}
+
 //移动端1px  
 // .tt() {
 //   border: none;
